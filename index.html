@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    <link rel="shortcut icon" href="img/icono_blanco.JPG" type="copa">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <title>La Barra Online - Simulador Interactivo</title>
+</head>
+
+<body>
+    <header class="header" id="header">
+        <nav class="navbar">
+            <div class="logo">
+                <img src="img/logo_blancoynegro.JPG" alt="LOGO">
+            </div>
+            <ul class="">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">INICIO</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#nosotros">NOSOTROS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="productos.html">PRODUCTOS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contacto">CONTACTO</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section class="nosotros" id="nosotros">
+        <div class="nos1">
+            <h2>Quienes Somos?</h2><br>
+            <p>Somos una tienda de bebidas online, con entregas a domicilio, que cuenta con la más amplia variedad de
+                productos. Ofrecemos envíos express gratis en compras desde $6000, en CABA y GBA. </p>
+        </div>
+        <div class="nos2">
+            <img src="img/nosotros2.jpg" alt="productos"><br>
+            <h2>Lo querés? Lo tenemos.</h2><br>
+            <h3>Tinto, hay. Whisky? Tenemos. Gin / Fernet? Obvio. Cervezas? Porsupollo.</h3>
+        </div>
+    </section>
+    <section class="nosotros2" id="nosotros2">
+        <div class="proceso">
+            <div id="description-box">
+                <img src="img/ubicacion.png" alt="iconUbicacion" id="icon">
+                <h3>Ingresá tu Código Postal</h3><br>
+                <h4>Decínos dónde estás, para estimar tiempos de entrega y ofrecerte el mejor servicio.</h4>
+            </div>
+            <div id="description-box">
+                <img src="img/carrito.png" alt="iconCarrito" id="icon">
+                <h3>Arma tu Carrito</h3><br>
+                <h4>Buscá entre miles de productos. Elegí tus favoritos, seleccioná la forma de entrega y avanzá con la
+                    compra.</h4>
+            </div>
+            <div id="description-box">
+                <img src="img/relaja.png" alt="iconRelaja" id="icon">
+                <h3>Sentate y relajá</h3><br>
+                <h4>Te vamos a avisar cuando despachamos tu pedido y listo. Tus bebidas en la puerta de tu casa, cuánto
+                    antes.</h4>
+            </div>
+        </div>
+        <div class="boton">
+            <a href="productos.html">
+                <h2>
+                    Quie<span class="first">ro.C</span>omprar!
+                </h2>
+            </a>
+        </div>
+    </section>
+    <section class="contacto" id="contacto">
+        <div class="contact_form">
+            <div class="formulario">
+                <h1>Formulario de contacto</h1>
+                <h3>Escríbenos tu consulta y en breve nos pondremos en contacto contigo</h3>
+                <form action="submeter-formulario.php" method="post">
+                    <p>
+                        <label for="nombre" class="colocar_nombre">Nombre
+                            <span class="obligatorio">*</span>
+                        </label>
+                        <input type="text" name="introducir_nombre" id="nombre" required="obligatorio"
+                            placeholder="Escribe tu nombre">
+                    </p>
+                    <p>
+                        <label for="email" class="colocar_email">Email
+                            <span class="obligatorio">*</span>
+                        </label>
+                        <input type="email" name="introducir_email" id="email" required="obligatorio"
+                            placeholder="Escribe tu Email">
+                    </p>
+                    <p>
+                        <label for="telefone" class="colocar_telefono">Teléfono
+                        </label>
+                        <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+                    </p>
+                    <p>
+                        <label for="asunto" class="colocar_asunto">Asunto
+                            <span class="obligatorio">*</span>
+                        </label>
+                        <input type="text" name="introducir_asunto" id="assunto" required="obligatorio"
+                            placeholder="Escribe un asunto">
+                    </p>
+                    <p>
+                        <label for="mensaje" class="colocar_mensaje">Mensaje
+                            <span class="obligatorio">*</span>
+                        </label>
+                        <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio"
+                            placeholder="Deja aquí tu comentario..."></textarea>
+                    </p>
+                    <button type="submit" name="enviar_formulario" id="enviar">
+                        <p>Enviar</p>
+                    </button>
+                    <p class="aviso">
+                        <span class="obligatorio"> * </span>los campos son obligatorios.
+                    </p>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <h2>FOOTER EN PROCESO :)</h2>
+    </footer>
+</body>
+
+</html>
