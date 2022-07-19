@@ -556,3 +556,54 @@ label{
     font-size: xx-large;
     padding-top: 150px;
 }
+
+/* --------------------------- */
+/* PÁGINA PRODUCTOS*/
+/* --------------------------- */
+
+.navbar-brand{
+    margin-left: 40px;
+}
+
+.titulo{
+    background-color: none;
+    height: 120px;
+    color:rgb(255, 255, 255);
+    font-size: xx-large;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.mercado{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.filtro{
+    height: 1200px;
+    width: 20%;
+    background-color: white;
+    float: left;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.contenedor-productos{
+    width: 100%;
+    background-color: white;
+    border: 1px solid rgb(0, 0, 0);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 5px;
+    margin-left: 5px;
+}
+
+.card{
+    width: 18rem;
+    margin-left: 3px;
+    height: 615px;
+}
+
+.card:hover{
+
+}
